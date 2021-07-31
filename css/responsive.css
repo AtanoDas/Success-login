@@ -1,0 +1,413 @@
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  *{
+  padding: 0;
+  margin: 0;
+}
+*a{
+  text-decoration: none;
+}
+body{
+  background-color: #212932;
+}
+.bg-img{
+  width: 100%;
+  min-height: 100%;
+    position: absolute;
+}
+.bg-img img{
+  width: 100%;
+  min-height: 100%;
+  z-index: 99999;
+  transform: translateY(0px);
+
+  animation: bgImg 4s ease-out;
+
+}
+@keyframes bgImg{
+  0%{
+    transform: translateY(100%);
+  }
+  50%{
+    transform: translateY(50%);
+  }
+  100%{
+    transform: translateY(0%);
+
+  }
+}
+.sign-page{
+  position: fixed;
+  margin: 35px 20px 10px 20px;
+  position: absolute;
+  align-items: center;
+  align-content: center;
+
+}
+.sign-overlap{
+  position: absolute;
+}
+.logo-img{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.logo-img img{
+  width: 70%;
+    min-height: 100%;
+}
+.form-page{
+    height: 340px;
+    background-color: #19202c;
+    opacity: 50%;
+    border-radius: 20px;
+    padding: 20px 10px 0px 10px;
+
+}
+.username,.password{
+  padding: 10px 20px;
+    border: 2px solid #ffb200;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.username input,.password input{
+  font-family: "Myriad Pro", sans-serif;
+    font-size: 20px;
+    width: 80%;
+    height: 35px;
+    background-color: transparent;
+    border: none;
+}
+.username input:focus,.password input:focus{
+  outline: none;
+  font-family: "Myriad Pro", sans-serif;
+    font-size: 20px;
+  color: white;
+
+}
+.password{
+  display: flex;
+}
+.pass-1{
+  width:60%;
+}
+.pass-2{
+  width: 50px;
+  position: absolute;
+  right: 30px;
+}
+.eye-close{
+  width: 100%;
+  height: 35px;
+  background: url('../img/icons8-invisible-96.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+.eye-open{
+  width: 100%;
+  height: 35px;
+  background: url('../img/icons8-eye-96.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+
+}
+
+.remember{
+  display: flex;
+}
+.rem-1{
+  width: 170px;
+  position: absolute;
+}
+.rem-2{
+  position: absolute;
+    right: 20px;
+  
+}
+.rem-2 p{
+  color: #59606c;
+  font-family: "Myriad Pro", sans-serif;
+  font-weight: 700;
+
+}
+.rem-2 a:hover{
+  text-decoration: none;
+}
+.not-remember{
+  width: 25%;
+  height: 25px;
+  background: url('../img/icons8-toggle-off-96.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+.rem-1 p{
+  color: #59606c;
+    position: absolute;
+    left: 45px;
+    bottom: -15px;
+}
+.on-remember{
+  width: 25%;
+  height: 25px;
+  background: url('../img/icons8-toggle-on-96.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+
+}
+
+.form-page .submit{
+  margin-top: 40px;
+    width: 100%;
+    min-height: 50px;
+    border-radius: 10px;
+    background-color: #feff00;
+    text-transform: uppercase;
+    font-family: "Myriad Pro";
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+.terms{
+  text-align: center;
+}
+.terms p{
+  font-family: "Myriad Pro";
+    font-weight: 400;
+    font-size: 14px;
+    color: #59606c;
+    margin: 0px;
+
+
+}
+.terms h4{
+  font-family: "Myriad Pro";
+    font-weight: 900;
+    font-size: 16px;
+    color: #59606c;
+
+}
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  *{
+  padding: 0;
+  margin: 0;
+}
+*a{
+  text-decoration: none;
+}
+body{
+  background-color: #212932;
+}
+.bg-img{
+  width: 100%;
+  min-height: 100%;
+    position: absolute;
+}
+.bg-img img{
+  width: 100%;
+  min-height: 100%;
+  z-index: 99999;
+  transform: translateY(0px);
+
+  animation: bgImg 4s ease-out;
+
+}
+@keyframes bgImg{
+  0%{
+    transform: translateY(100%);
+  }
+  50%{
+    transform: translateY(50%);
+  }
+  100%{
+    transform: translateY(0%);
+
+  }
+}
+.sign-page{
+  position: fixed;
+  margin: 35px 20px 10px 20px;
+  position: absolute;
+  align-items: center;
+  align-content: center;
+
+}
+.sign-overlap{
+  position: absolute;
+}
+.logo-img{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.logo-img img{
+  width: 70%;
+    min-height: 100%;
+}
+.form-page{
+    height: 340px;
+    background-color: #19202c;
+    opacity: 50%;
+    border-radius: 20px;
+    padding: 20px 10px 0px 10px;
+
+}
+.username,.password{
+  padding: 10px 20px;
+    border: 2px solid #ffb200;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.username input,.password input{
+  font-family: "Myriad Pro", sans-serif;
+    font-size: 20px;
+    width: 80%;
+    height: 35px;
+    background-color: transparent;
+    border: none;
+}
+.username input:focus,.password input:focus{
+  outline: none;
+  font-family: "Myriad Pro", sans-serif;
+    font-size: 20px;
+  color: white;
+
+}
+.password{
+  display: flex;
+}
+.pass-1{
+  width:60%;
+}
+.pass-2{
+  width: 50px;
+  position: absolute;
+  right: 30px;
+}
+.eye-close{
+  width: 100%;
+  height: 35px;
+  background: url('../img/icons8-invisible-96.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+.eye-open{
+  width: 100%;
+  height: 35px;
+  background: url('../img/icons8-eye-96.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+
+}
+
+.remember{
+  display: flex;
+}
+.rem-1{
+  width: 170px;
+  position: absolute;
+}
+.rem-2{
+  position: absolute;
+    right: 20px;
+  
+}
+.rem-2 p{
+  color: #59606c;
+  font-family: "Myriad Pro", sans-serif;
+  font-weight: 700;
+
+}
+.rem-2 a:hover{
+  text-decoration: none;
+}
+.not-remember{
+  width: 25%;
+  height: 25px;
+  background: url('../img/icons8-toggle-off-96.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+.rem-1 p{
+  color: #59606c;
+    position: absolute;
+    left: 45px;
+    bottom: -15px;
+}
+.on-remember{
+  width: 25%;
+  height: 25px;
+  background: url('../img/icons8-toggle-on-96.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+
+}
+
+.form-page .submit{
+  margin-top: 40px;
+    width: 100%;
+    min-height: 50px;
+    border-radius: 10px;
+    background-color: #feff00;
+    text-transform: uppercase;
+    font-family: "Myriad Pro";
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+.terms{
+  text-align: center;
+}
+.terms p{
+  font-family: "Myriad Pro";
+    font-weight: 400;
+    font-size: 14px;
+    color: #59606c;
+    margin: 0px;
+
+
+}
+.terms h4{
+  font-family: "Myriad Pro";
+    font-weight: 900;
+    font-size: 16px;
+    color: #59606c;
+
+}
+  
+}
