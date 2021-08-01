@@ -1,3 +1,4 @@
+index html css section start*/
 *{
 	padding: 0;
 	margin: 0;
@@ -56,8 +57,7 @@ body{
 }
 .form-page{
     height: 340px;
-    background-color: #19202c;
-    opacity: 50%;
+    background-color: #00000080;
     border-radius: 20px;
     padding: 20px 10px 0px 10px;
 
@@ -169,10 +169,20 @@ body{
     border-radius: 10px;
     background-color: #feff00;
     text-transform: uppercase;
-    font-family: "Myriad Pro";
+    
+    margin-bottom: 20px;
+}
+.submit a{
+	font-family: "Myriad Pro", sans-serif;
+    color: #59606c;
     font-weight: 600;
     font-size: 20px;
-    margin-bottom: 20px;
+
+}
+.submit a:hover{
+	text-decoration: none;
+	
+
 
 }
 .terms{
@@ -194,3 +204,400 @@ body{
     color: #59606c;
 
 }
+
+/*index html css section end*/
+
+
+
+
+
+/*product-page html css section start*/
+
+/*Header Footer Css Start*/
+.header{
+	width: 100%;
+    height: 60px;
+	position: fixed;
+	background-color: #19202c;
+
+}
+.header img{
+	width: 40px;
+	height: 40px;
+}
+.rowe{
+	display: flex;
+}
+.cole{
+	flex: 30%;
+}
+.header-part{
+	display: inline-flex;
+	list-style: none;
+	
+
+}
+
+.header-part h2{
+	color: #feff00;
+	font-family: "Myriad Pro", sans-serif;
+    margin: 5px 40px 0px 15px;
+}
+.header-part p{
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 18px;
+    color: #feff00;
+    border: 2px solid #feff00;
+    border-radius: 50%;
+
+}
+.header-part .notification-count{
+	position: absolute;
+    left: 30px;
+    top: 25px;
+
+}
+.header-part .add-count{
+	position: absolute;
+    left: 85px;
+    top: 10px;
+}
+
+.header-list{
+	margin: 10px 5px;
+}
+
+
+.footer{
+	width: 1000%;
+	height: 45px;
+	position: fixed;
+	background-color: #000000;
+	bottom: 0px;
+
+}
+.footer-icon{
+	display: flex;
+}
+.footer img{
+	width: 40px;
+	height: 40px;
+}
+
+.footer .icon{
+	padding: 6px;
+    margin: auto 35px;
+}
+.footer button{
+	background-color: transparent;
+	border: none;
+}
+.footer button:hover{
+	color: none;
+	outline: none;
+	border: none;
+
+}
+/*Header Footer Css End*/
+
+.product-content{
+	width: 100%;
+	min-height: 100%;
+	padding-top: 70px;
+
+}
+.product-content .logo{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+
+}
+.product-content .logo img{
+	width: 120px;
+    height: 100px;
+}
+.product-col{
+	background-color: #feff00;
+	width: 100%;
+	min-height: 100vh;
+	text-align: center;
+	margin-top: 55px;
+	padding: 10px;
+}
+.product-col h1{
+	font-family: "Comic Sans MS";
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+.product-display{
+	display: flex;
+}
+.product-display img{
+    width: 85px;
+    height: 100px;
+}
+.product-display .icon{
+
+    margin: auto 20px;
+}
+
+/*product-page html css section end*/
+
+
+
+/*About page css start */
+.about-content{
+	width: 100%;
+	min-height: 100%;
+	padding-top: 70px;
+
+}
+.about-content .logo{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+
+}
+.about-content .logo img{
+	width: 120px;
+    height: 100px;
+}
+.about{
+	background-color: #feff00;
+	width: 100%;
+	min-height: 100vh;
+	text-align: center;
+	margin-top: 55px;
+	padding: 10px;
+}
+.about h1{
+	font-family: "Comic Sans MS";
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+.about p{
+	font-family: "Comic Sans MS";
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+/*About page css end*/
+
+
+/*Rank-gallery page css start*/
+
+.rank-gallery{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: #feff00;
+    text-align: center;
+}
+.rank-gallery h1{
+	font-family: "Comic Sans MS";
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin: 10px 0px;
+
+}
+.rank form{
+	padding-top: 60px;
+
+}
+.table-bordered td, .table-bordered th {
+    border: 1px solid #feff00;
+    color: #feff00;
+  	font-family: "Comic Sans MS";
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #feff00;
+    color: #feff00;
+  	font-family: "Comic Sans MS";
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+/*Rank-gallery page css end*/
+
+
+
+/*transection page css start*/
+.transection{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: #feff00;
+    text-align: center;
+}
+.transection h1{
+	font-family: "Comic Sans MS";
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin: 10px 0px;
+
+}
+.transection-icon{
+	padding-top: 80px;
+}
+.transection-icon .col{
+	padding: 0px;
+}
+
+.transection-icon img{
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    margin: 10px 20px;
+    border: 2px solid #feff00;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px 4px rgb(135 139 144);
+}
+.transection-icon h4{
+	font-family: "Comic Sans MS";
+    font-size: 14px;
+    font-weight: 400;
+    color: #feff00;
+    text-align: center;
+
+
+}
+
+
+/*transection page css end*/
+
+
+/*my-team page css start*/
+
+.my-team{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: #feff00;
+    text-align: center;
+}
+.my-team h1{
+	font-family: "Comic Sans MS";
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin: 10px 0px;
+
+}
+.team form{
+	padding-top: 60px;
+
+}
+
+
+/*my-team page css end*/
+
+
+
+
+
+
+/*create-member page css start*/
+
+.create-member{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: #feff00;
+    text-align: center;
+}
+.create-member h1{
+	font-family: "Comic Sans MS";
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin: 10px 0px;
+
+}
+.profile-pic{
+	padding-top: 65px;
+	text-align: center;
+}
+
+.profile-pic .pic{
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    margin: 10px 20px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px 4px rgb(135 139 144);
+}
+.choose{
+	position: absolute;
+    width: 60px;
+    right: 105px;
+    top: 120px;
+}
+.choose .select-pic{
+	width: 30px;
+
+} 
+.choose p{
+	font-family: "Comic Sans MS";
+	font-size: 8px;
+    font-weight: 400;
+    color: #feff00;
+
+}
+.profile-form{
+	margin-top: 10px;
+}
+.p-form{
+
+}
+.p-form input{
+	width: 100%;
+    padding: 5px 15px;
+    background-color: transparent;
+    border: 2px solid #feff00;
+    margin: 3px auto;
+
+}
+.p-form input::placeholder{
+	font-family: "Comic Sans MS";
+	font-size: 18px;
+    font-weight: 400;
+	color: #feff00;
+}
+.p-form .submit{
+	text-align: center;
+    width: 100%;
+    background: none;
+    border: none;
+    margin-top: 15px;
+
+}
+.p-form a{
+	background-color: #feff00;
+    padding: 10px 120px;
+    border-radius: 20px;
+    font-family: "Comic Sans MS";
+	font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+
+
+
+
+/*create-member page css end*/

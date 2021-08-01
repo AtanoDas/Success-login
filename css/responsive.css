@@ -64,8 +64,7 @@ body{
 }
 .form-page{
     height: 340px;
-    background-color: #19202c;
-    opacity: 50%;
+    background-color: #00000080;
     border-radius: 20px;
     padding: 20px 10px 0px 10px;
 
@@ -271,8 +270,7 @@ body{
 }
 .form-page{
     height: 340px;
-    background-color: #19202c;
-    opacity: 50%;
+    background-color: #00000080;
     border-radius: 20px;
     padding: 20px 10px 0px 10px;
 

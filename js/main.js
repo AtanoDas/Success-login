@@ -16,3 +16,9 @@
 
 
  	})
+
+
+ /*Back button Js*/
+  function back(){
+    window.history.back();
+  }
