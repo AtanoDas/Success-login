@@ -19,9 +19,7 @@ body{
 	min-height: 100%;
 	z-index: 99999;
 	transform: translateY(0px);
-
 	animation: bgImg 4s ease-out;
-
 }
 @keyframes bgImg{
 	0%{
@@ -75,6 +73,7 @@ body{
     width: 80%;
     height: 35px;
     background-color: transparent;
+	color: white;
     border: none;
 }
 .username input:focus,.password input:focus{
@@ -87,33 +86,16 @@ body{
 .password{
 	display: flex;
 }
-.pass-1{
-	width:60%;
+.eye{
+	margin-left: 30px;
 }
-.pass-2{
-	width: 50px;
-	position: absolute;
-	right: 30px;
-}
-.eye-close{
-	width: 100%;
-	height: 35px;
-	background: url('../img/icons8-invisible-96.png');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	cursor: pointer;
-}
-.eye-open{
-	width: 100%;
-	height: 35px;
-	background: url('../img/icons8-eye-96.png');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	cursor: pointer;
 
+.eye  img{
+	width: 100%;
+	height: 35px;
+	/* margin-left: 10px; */
 }
+
 
 .remember{
 	display: flex;
@@ -218,6 +200,7 @@ body{
 	width: 100%;
     height: 60px;
 	position: fixed;
+	z-index: 12;
 	background-color: #19202c;
 
 }
@@ -231,17 +214,76 @@ body{
 .cole{
 	flex: 30%;
 }
+.nav{
+	padding-left: none !important;
+}
 .header-part{
-	display: inline-flex;
-	list-style: none;
-	
+	display: flex;
+	padding: 5px 10px;
+}
+.blog-1{
+	flex: 1;
+}
+.blog-2{
+	flex: 2;
+	text-align: center;
+}
+.blog-3{
+	flex: 1;
+	text-align: end;
+}
+input[type="checkbox"]{
+	display: none;
+}
+#show:checked ~ .popup{
+	display: block;
+}
 
+.popup {
+    position: absolute;
+    width: 80%;
+    height: 200px;
+    background: #495057;
+    text-align: center;
+    left: 40px;
+    top: 250px;
+    display: none;
+
+}
+.popup h1{
+    font-size: 20px;
+    color: yellow;
+    padding: 10px 0px;
+}
+.popup .warning{
+
+background-color: #495057;
+}
+.popup .option{
+
+margin-top: 60px;
+}
+.option .yes,.option .no{
+
+    padding: 10px 50px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Myriad pro", sans-serif;
+
+}
+.option .yes{
+
+}
+.option .no{
+	
 }
 
 .header-part h2{
 	color: #feff00;
+	font-size: 30px;
 	font-family: "Myriad Pro", sans-serif;
-    margin: 5px 40px 0px 15px;
+	margin: 5px;
 }
 .header-part p{
     font-family: "Myriad Pro", sans-serif;
@@ -257,7 +299,7 @@ body{
 }
 .header-part .notification-count{
 	position: absolute;
-    left: 30px;
+    left: 35px;
     top: 25px;
 
 }
@@ -267,21 +309,17 @@ body{
     top: 10px;
 }
 
-.header-list{
-	margin: 10px 5px;
-}
+
 
 
 .footer{
-	width: 1000%;
-	height: 45px;
+	width: 100%;
+	height: 50px;
 	position: fixed;
+	z-index: 12;
 	background-color: #000000;
 	bottom: 0px;
 
-}
-.footer-icon{
-	display: flex;
 }
 .footer img{
 	width: 40px;
@@ -289,8 +327,7 @@ body{
 }
 
 .footer .icon{
-	padding: 6px;
-    margin: auto 35px;
+	text-align: center;
 }
 .footer button{
 	background-color: transparent;
@@ -398,6 +435,8 @@ body{
     width: 100%;
     height: 60px;
     position: fixed;
+	z-index: 12;
+
     background-color: #feff00;
     text-align: center;
 }
@@ -440,7 +479,8 @@ body{
     width: 100%;
     height: 60px;
     position: fixed;
-    background-color: #feff00;
+	z-index: 12;
+    background-color: #00000;
     text-align: center;
 }
 .transection h1{
@@ -453,6 +493,8 @@ body{
 }
 .transection-icon{
 	padding-top: 80px;
+	margin-bottom: 150px;
+
 }
 .transection-icon .col{
 	padding: 0px;
@@ -462,7 +504,7 @@ body{
     width: 80px;
     height: 80px;
     padding: 10px;
-    margin: 10px 20px;
+    margin: 10px 22px;
     border: 2px solid #feff00;
     border-radius: 50%;
     box-shadow: 0px 0px 8px 4px rgb(135 139 144);
@@ -487,6 +529,7 @@ body{
     width: 100%;
     height: 60px;
     position: fixed;
+	z-index: 12;
     background-color: #feff00;
     text-align: center;
 }
@@ -517,6 +560,7 @@ body{
     width: 100%;
     height: 60px;
     position: fixed;
+	z-index: 12;
     background-color: #feff00;
     text-align: center;
 }
@@ -601,3 +645,67 @@ body{
 
 
 /*create-member page css end*/
+
+
+
+/*deshboard page css start*/
+
+.deshboard {
+    padding-top: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #feff00;
+}
+.deshboard .user{
+    margin: 0px;
+    padding: 20px 0px;
+}
+.deshboard .desc{
+padding: 40px 10px 0px 60px;
+}
+.deshboard .desc h2{
+	font-family: "Myriad Pro", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+.deshboard .desc p{
+	font-family: "Myriad Pro", sans-serif;
+    font-weight: 500;
+}
+.deshboard img{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 50%;
+    border: 1px solid black;;
+}
+.deshboard-icon{
+    margin-bottom: 150px;
+}
+.deshboard-icon .col{
+	padding: 0px;
+}
+
+.deshboard-icon img{
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    margin: 10px 22px;
+    border: 2px solid #feff00;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px 4px rgb(135 139 144);
+}
+.deshboard-icon h4{
+	font-family: "Comic Sans MS";
+    font-size: 14px;
+    font-weight: 400;
+    color: #feff00;
+    text-align: center;
+
+
+}
+
+
+
+/*deshboard page css end*/

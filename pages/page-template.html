@@ -17,30 +17,54 @@
     <title>Hello, world!</title>
   </head>
   <body>
-  	<header>
-     <div class="header container">
-      <ul class="header-part">
-        <li class="header-list"><a href=""><img src="../img/notification.png"></a></li>
-        <li class="header-list"><a href=""><img src="../img/open-box.png"></a></li>
-        <li class="header-list"><h2>Success BD</h2></li>
-        <li class="header-list"><a href=""><img src="../img/close.png"></a></li>
+  <!-- header part start -->
+    <header>
+     <div class="header">
+      <div class="header-part">
+        <div class="blog-1">
+          <a href=""><img src="../img/notification.png"></a>
+          <a href=""><img src="../img/open-box.png"></a>
+        </div>
+        <p class="notification-count">2</p>
+        <p class="add-count">2</p>
 
-      </ul>
+        <div class="blog-2"><h2>Success BD</h2></div>
+        <div class="blog-3">
+          <input type="checkbox" id="show">
+          <label for="show">
+            
+            <img src="../img/close.png">
+          </label>
+            <div class="popup">
+              <div class="warning">
+                <h1>Are you sure you want to logout?</h1>
+              </div>
+              <div class="option">
+                <a href="../index.html"><button class="yes btn-danger">Yes</button></a>
+                <label for="show" class="no btn-warning">No</label>
+
+              </div>
+            </div>
+        </div>
+
+
+      </div>
      </div> 
     </header>
+    <!-- header part end -->
 
     <footer>
-      <div class="footer">
-        <div class="footer-icon">
-          <div class="icon">
+      <div class="footer container">
+        <div class="footer-icon row">
+          <div class="icon col">
             <a href="">
               <img src="../img/home.png">
             </a>
           </div>
-          <div class="icon">
+          <div class="icon col">
             <a href=""><img src="../img/shopping-cart.png"></a>
           </div>
-          <div class="icon">
+          <div class="icon col">
             <button onclick="back()"><img src="../img/return.png"></button>
           </div>
         </div>
