@@ -17,50 +17,47 @@
     <title>Hello, world!</title>
   </head>
   <body>
-  	<header>
+  <!-- header part start -->
+    <header>
      <div class="header2">
-      <h1>Create Member</h1>
+      <h1>Transfer Wallet</h1>
      </div> 
     </header>
-
-    <!-- Main Content here -->
-    <section class="profile-pic">
-      <div class="register-profile">
-        <img class="pic" src="../img/profile.png">
-        <div class="choose">
-          <img class="select-pic" src="../img/select-pic.png">
-        <p>choose image</p>
-        </div>
+    <!-- header part end -->
+  
+<!-- Main content here -->
+<div class="income-headline"><h2>Cash Out Request</h2></div>
+  
+<section>
+  <div class="income-fund">
+    <form class="form">
+    <div class="income-amount">
+      <input type="number" name="" placeholder="Amount">
+    </div>
+    <div>
+        <select class="select" name="">
+        <option disabled selected>Select Option</option>
+        <option value="joining">Joining to Joining</option>
+        <option value="From-admin">From Admin</option>
+    </select>
+    </div>
+    <div class="send">
+      <input type="text" name="" placeholder="Send to">
+    </div>
+    <div class="income-password">
+      <input type="password" name="" placeholder="Password" id="password">
+      <div  class="eye-password">
+        <i id="eye" onclick="toggle2()"><img id="eye-img" src="../img/icons8-invisible-96.png"></i>
       </div>
-      
-    </section>
-
-    <section class="profile-form">
-      <div class="container">
-        <form class="p-form">
-        <input type="name" name="" placeholder="Name">
-        <input type="email" name="" placeholder="Email">
-        <input type="name" name="" placeholder="Full Name">
-        <input type="tel" name="" placeholder="Phone Number">
-        <input type="name" name="" placeholder="Select Gender">
-        <input type="name" name="" placeholder="Select Country">
-        <input type="name" name="" placeholder="Referral ID">
-        <input type="name" name="" placeholder="Select Product">
-
-        <button type="submit" class="submit"><a href="">Save</a></button>
-        
-      </form>
-      </div>
-    </section>
+    </div>
+    <button type="submit" class="calculator">Calculate</button>
+  </form>
+  </div>
+</section>
 
 
 
-
-
-
-
-
-
+  <!-- Footer part start -->
     <footer>
       <div class="footer container">
         <div class="footer-icon row">
@@ -79,7 +76,9 @@
         
       </div>
     </footer>
+
     
+  <!-- Footer part end -->
 
 
 
@@ -99,8 +98,6 @@
     <script type="" src="../js/main.js"></script>
   </body>
 </html>
-
-
 
 
 

@@ -27,6 +27,24 @@ function toggle(){
   }
 }
 
+var state = false;
+
+function toggle2(){
+  if(state){
+    document.getElementById("password").setAttribute("type","password");
+    document.getElementById("eye-img").src="../img/icons8-invisible-96.png";
+    state = false;
+  }
+  else{
+    document.getElementById("password").setAttribute("type","text");
+    document.getElementById("eye-img").src="../img/icons8-eye-96.png";
+
+    state = true;
+
+
+  }
+}
+
  
 
 /*Remember icon js*/

@@ -6,6 +6,7 @@ index html css section start*/
 *a{
 	text-decoration: none;
 }
+
 body{
 	background-color: #212932;
 }
@@ -199,24 +200,16 @@ body{
 .header{
 	width: 100%;
     height: 60px;
-	position: fixed;
-	z-index: 12;
-	background-color: #19202c;
+    position: fixed;
+    z-index: 12;
+    background-color: #19202c;
 
 }
 .header img{
 	width: 40px;
 	height: 40px;
 }
-.rowe{
-	display: flex;
-}
-.cole{
-	flex: 30%;
-}
-.nav{
-	padding-left: none !important;
-}
+
 .header-part{
 	display: flex;
 	padding: 5px 10px;
@@ -312,6 +305,7 @@ margin-top: 60px;
 
 
 
+
 .footer{
 	width: 100%;
 	height: 50px;
@@ -319,11 +313,14 @@ margin-top: 60px;
 	z-index: 12;
 	background-color: #000000;
 	bottom: 0px;
+	padding: 5px;
 
 }
 .footer img{
 	width: 40px;
 	height: 40px;
+	cursor: pointer;
+
 }
 
 .footer .icon{
@@ -337,6 +334,26 @@ margin-top: 60px;
 	color: none;
 	outline: none;
 	border: none;
+
+}
+
+
+/*header2 template css*/
+.header2{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+	z-index: 12;
+
+    background-color: #feff00;
+    text-align: center;
+}
+.header2 h1{
+	font-family: "Comic Sans MS";
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin: 20px 0px;
 
 }
 /*Header Footer Css End*/
@@ -431,23 +448,7 @@ margin-top: 60px;
 
 /*Rank-gallery page css start*/
 
-.rank-gallery{
-    width: 100%;
-    height: 60px;
-    position: fixed;
-	z-index: 12;
 
-    background-color: #feff00;
-    text-align: center;
-}
-.rank-gallery h1{
-	font-family: "Comic Sans MS";
-    font-size: 25px;
-    font-weight: 600;
-    margin-bottom: 15px;
-    margin: 10px 0px;
-
-}
 .rank form{
 	padding-top: 60px;
 
@@ -475,22 +476,8 @@ margin-top: 60px;
 
 
 /*transection page css start*/
-.transection{
-    width: 100%;
-    height: 60px;
-    position: fixed;
-	z-index: 12;
-    background-color: #feff00;
-    text-align: center;
-}
-.transection h1{
-	font-family: "Comic Sans MS";
-    font-size: 25px;
-    font-weight: 600;
-    margin-bottom: 15px;
-    margin: 10px 0px;
 
-}
+
 .transection-icon{
 	padding-top: 80px;
 	margin-bottom: 150px;
@@ -525,22 +512,6 @@ margin-top: 60px;
 
 /*my-team page css start*/
 
-.my-team{
-    width: 100%;
-    height: 60px;
-    position: fixed;
-	z-index: 12;
-    background-color: #feff00;
-    text-align: center;
-}
-.my-team h1{
-	font-family: "Comic Sans MS";
-    font-size: 25px;
-    font-weight: 600;
-    margin-bottom: 15px;
-    margin: 10px 0px;
-
-}
 .team form{
 	padding-top: 60px;
 
@@ -554,24 +525,7 @@ margin-top: 60px;
 
 
 
-/*create-member page css start*/
-
-.create-member{
-    width: 100%;
-    height: 60px;
-    position: fixed;
-	z-index: 12;
-    background-color: #feff00;
-    text-align: center;
-}
-.create-member h1{
-	font-family: "Comic Sans MS";
-    font-size: 25px;
-    font-weight: 600;
-    margin-bottom: 15px;
-    margin: 10px 0px;
-
-}
+/*register page css start*/
 .profile-pic{
 	padding-top: 65px;
 	text-align: center;
@@ -615,9 +569,21 @@ margin-top: 60px;
     background-color: transparent;
     border: 2px solid #feff00;
     margin: 3px auto;
+	font-family: "Comic Sans MS";
+	font-size: 18px;
+    font-weight: 400;
+	color: #feff00;
+
 
 }
+
 .p-form input::placeholder{
+	font-family: "Comic Sans MS";
+	font-size: 18px;
+    font-weight: 400;
+	color: #feff00;
+}
+.p-form input:focus{
 	font-family: "Comic Sans MS";
 	font-size: 18px;
     font-weight: 400;
@@ -644,7 +610,7 @@ margin-top: 60px;
 
 
 
-/*create-member page css end*/
+/*register page css end*/
 
 
 
@@ -709,3 +675,786 @@ padding: 40px 10px 0px 60px;
 
 
 /*deshboard page css end*/
+
+/*Update profile page css start*/
+
+.update-pic{
+	padding-top: 65px;
+	text-align: center;
+}
+
+.update-pic .pic{
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    margin: 10px 20px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px 4px rgb(135 139 144);
+}
+.update-pic .choose{
+	position: absolute;
+    width: 60px;
+    right: 105px;
+    top: 120px;
+}
+.update-pic .choose .select-pic{
+	width: 30px;
+
+} 
+.update-pic .choose p{
+	font-family: "Comic Sans MS";
+	font-size: 8px;
+    font-weight: 400;
+    color: #feff00;
+
+}
+.update-form{
+	margin-top: 10px;
+}
+.u-form{
+
+}
+.u-form input{
+	width: 100%;
+    padding: 5px 15px;
+    background-color: transparent;
+    border: 2px solid #feff00;
+    margin: 3px auto;
+	font-family: "Comic Sans MS";
+	font-size: 18px;
+    font-weight: 400;
+	color: #feff00;
+    
+
+}
+.u-form input:focus{
+	font-family: "Comic Sans MS";
+	font-size: 18px;
+    font-weight: 400;
+	color: #feff00;
+}
+.u-form input:type{
+	color: #feff00;
+
+}
+.u-form input::placeholder{
+	font-family: "Comic Sans MS";
+	font-size: 18px;
+    font-weight: 400;
+	color: #feff00;
+}
+.u-form .bdate{
+	font-family: "Comic Sans MS";
+	font-size: 18px;
+    font-weight: 400;
+	color: #feff00;
+}
+.u-form .update{
+	text-align: center;
+    width: 48%;
+    background: none;
+    border: none;
+    margin-top: 15px;
+
+}
+.u-form .more{
+	text-align: center;
+    width: 48%;
+    background: none;
+    border: none;
+    margin-top: 15px;
+
+}
+.u-form a{
+	background-color: #feff00;
+    padding: 10px 50px;
+    border-radius: 20px;
+    font-family: "Comic Sans MS";
+	font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+.u-form a:hover{
+	text-decoration: none;
+}
+
+
+
+
+/*Update profile page css end*/
+
+
+
+
+
+/*Withdraw report page css start*/
+
+.withdraw{
+	padding-top: 60px;
+
+}
+.withdraw .agent{
+    border-bottom: 1px solid yellow;
+    border-right: 1px solid yellow;
+    padding: 10px 20px 5px 20px;
+	
+}
+.withdraw .status{
+	border-bottom: 1px solid yellow;
+    padding: 10px 20px 5px 20px;
+
+}
+.withdraw .agent label,.withdraw .status label{
+	font-family: "Comic Sans MS";
+	font-size: 15px;
+    font-weight: 400;
+    color: #feff00;
+	
+}
+
+/*Withdraw report page css end*/
+
+
+
+/*own fund transfer page css start*/
+.fund-transfer{
+    padding: 90px 20px 0px 20px;
+
+
+}
+.fund-transfer h2{
+	font-family: "Comic Sans MS";
+    font-size: 20px;
+    font-weight: 700;
+    color: #feff00;
+    text-align: center;
+
+}
+.fund-transfer .fund{
+
+}
+.fund p{
+	color: #00d2ff;
+    display: inline;
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.fund span{
+	color: #00d2ff;
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.fund .amount{
+	margin-top: 10px;
+    background-color: #feff00;
+    border-radius: 5px;
+}
+
+.fund .f-password{
+	margin-top: 10px;
+    background-color: #feff00;
+    border-radius: 5px;
+	display: flex;
+}
+.fund .amount input, .fund .f-password input{
+	width: 100%;
+    padding: 5px 15px;
+    background-color: transparent;
+    border: none;
+    margin: 3px auto;
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    color: #5e5e5e;
+    font-weight: 700;
+
+}
+
+.amount input:focus,.f-password input:focus{
+	outline: none;
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    font-weight: 700;
+	color: #5e5e5e;
+
+
+}
+.amount input::placeholder,.f-password input::placeholder{
+	outline: none;
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+	color: #5e5e5e;
+    font-weight: 700;
+
+
+}
+.fund .calculator{
+    border: none;
+    background-color: #feff00;
+    padding: 5px 40px;
+    margin: 15px 85px;
+    border-radius: 5px;
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    color: #5e5e5e;
+    font-weight: 800;
+    cursor: pointer;
+}
+.fund .calculator:hover,.fund .calculator:focus{
+	border: none;
+	outline: none;
+}
+.eye-password{
+	margin-right: 20px;
+}
+
+.eye-password  img{
+	width: 100%;
+	height: 46px;
+}
+
+/*own fund transfer page css end*/
+
+
+/*Renew User page css Start*/
+
+.renew-user{
+	padding-top: 80px;
+	text-align: center;
+
+}
+.renew-user .select{
+    width: 85%;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 2px solid #feff00;
+    color: #feff00;
+   	font-family: "Comic Sans MS";
+    font-size: 20px;
+    background-image: url('../img/icons8-expand-arrow-96.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position-x: 98%;
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+
+.select:focus,.select:hover{
+	outline: none;
+
+}
+.select option{
+    background-color: #212932;
+    font-family: "Comic Sans MS";
+    font-size: 15px;
+    width: 40%;
+}
+.renew{
+	position: absolute;
+    bottom: 70px;
+    left: 150px;
+}
+
+.renew .renew-btn{
+    border: none;
+    background-color: #feff00;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    color: #000000;
+    font-weight: 800;
+}
+
+/*Renew User page css end*/
+
+
+
+/*Report Page css start*/
+.report{
+	padding-top: 20px;
+	text-align: center;
+
+}
+.report-headline{
+	padding: 80px 10px 10px 10px;
+
+}
+.report-headline h2{
+	font-family: "Comic Sans MS";
+    font-size: 18px;
+    font-weight: 700;
+    color: #feff00;
+}
+.report .select{
+    width: 85%;
+    padding: 10px;
+    background-color: #feff00;
+    color: ;
+   	font-family: "Comic Sans MS";
+    font-size: 20px;
+    font-weight: 700;
+	color: #5e5e5e;
+    background-image: url('../img/icons8-expand-arrow-96.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position-x: 98%;
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+
+.report .select:focus,.report .select:hover{
+	outline: none;
+
+
+}
+
+.report .select option{
+    background-color: #feff00;
+    font-family: "Comic Sans MS";
+    font-size: 15px;
+    font-weight: 700;
+    width: 40%;
+}
+/*Report Page css end*/
+
+
+
+
+/*transfer Wallet page css start*/
+.transfer{
+	padding: 0px 30px;
+	text-align: center;
+
+}
+.transfer-headline{
+	padding: 80px 10px 0px 55px;
+
+}
+.transfer-headline h2{
+	font-family: "Comic Sans MS";
+    font-size: 15px;
+    font-weight: 700;
+    color: #feff00;
+}
+.transfer .select{
+    width: 85%;
+    padding: 5px;
+    background-color: #feff00;
+    border-radius: 5px;
+   	font-family: "Comic Sans MS";
+    font-size: 18px;
+    font-weight: 700;
+	color: #5e5e5e;
+    background-image: url('../img/icons8-expand-arrow-96.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position-x: 98%;
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+
+.transfer .select:focus,.transfer .select:hover{
+	outline: none;
+
+
+}
+
+.transfer .select option{
+    background-color: #feff00;
+    font-family: "Comic Sans MS";
+    font-size: 15px;
+    font-weight: 700;
+    width: 40%;
+}
+.t-fund{
+	padding: 5px 30px;
+}
+.t-fund p{
+	color: #00d2ff;
+    display: inline;
+    font-family: "Comic Sans MS";
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.t-fund span{
+	color: #00d2ff;
+    font-family: "Comic Sans MS";
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.t-fund .t-send{
+    background-color: #feff00;
+    border-radius: 5px;
+
+}
+.t-fund .t-amount{
+    background-color: #feff00;
+    border-radius: 5px;
+	margin-top: 10px;
+
+}
+
+.t-fund .t-password{
+	margin-top: 10px;
+    background-color: #feff00;
+    border-radius: 5px;
+	display: flex;
+}
+.t-fund .t-comments{
+    background-color: #feff00;
+    border-radius: 5px;
+	margin-top: 10px;
+
+}
+.t-fund .t-amount input, .t-fund .t-password input,.t-fund  .t-send input{
+	width: 100%;
+    padding: 5px 15px;
+    background-color: transparent;
+    border: none;
+    margin: 3px auto;
+    font-family: "Comic Sans MS";
+    font-size: 15px;
+    font-weight: 800;
+    color: #5e5e5e;
+    outline: none;
+
+}
+
+.t-amount input:focus,.t-password input:focus,.t-send input:focus,.t-comments textarea: focus{
+	outline: none;
+    font-family: "Comic Sans MS";
+    font-size: 15px;
+    font-weight: 800;
+	color: #5e5e5e;
+
+}
+.t-amount input::placeholder,.t-password input::placeholder,.t-send input::placehoder, .t-comments textarea::placehoder{
+	outline: none;
+    font-family: "Comic Sans MS";
+    font-size: 15px;
+	color: #5e5e5e;
+    font-weight: 800;
+    outline: none;
+
+
+}
+.t-comments textarea{
+	width: 100%;
+	height: 15vh;
+    padding: 5px 15px;
+    background-color: transparent;
+    border: none;
+    margin: 3px auto;
+    font-family: "Comic Sans MS";
+    font-size: 15px;
+    font-weight: 800;
+    color: #5e5e5e;
+    outline: none;
+
+}
+.t-fund .calculator{
+    border: none;
+    background-color: #feff00;
+    padding: 5px 40px;
+    margin: 10px 88px;
+    border-radius: 5px;
+    font-family: "Comic Sans MS";
+    font-size: 18px;
+    color: #000000;
+    font-weight: 800;
+    cursor: pointer;
+}
+.t-fund .calculator:hover,.t-fund .calculator:focus{
+	border: none;
+	outline: none;
+}
+.eye-password{
+	margin-right: 20px;
+}
+
+.eye-password  img{
+	width: 100%;
+	height: 46px;
+}
+
+/*transfer Wallet page css end*/
+
+
+/*accepted-withdraw page css start*/
+.accepted{
+	position: absolute;
+	bottom: 20%;
+	left: 30%;
+}
+.accepted .accepted-btn{
+    background-color: #ff0000;
+    padding: 10px 25px;
+    border-radius: 50px;
+    border: none;
+    font-family: "Comic Sans MS";
+    font-size: 12px;
+    color: #000000;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+/*accepted-withdraw page css end*/
+
+
+
+
+/*agent-withdraw page css start*/
+.agent{
+	position: absolute;
+	bottom: 20%;
+	left: 30%;
+}
+.agent .agent-btn{
+    background-color: #ff0000;
+    padding: 10px 25px;
+    border-radius: 50px;
+    border: none;
+    font-family: "Comic Sans MS";
+    font-size: 12px;
+    color: #000000;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+/*agent-withdraw page css end*/
+
+
+
+
+/*transfer Wallet page css start*/
+.income-fund{
+	padding: 0px 30px;
+	text-align: center;
+
+}
+.income-headline{
+    padding: 80px 10px 20px 20px;
+}
+.income-headline h2{
+	font-family: "Comic Sans MS";
+    font-size: 15px;
+    font-weight: 500;
+    color: #feff00;
+}
+.income-fund .select{
+    width: 100%;
+    padding: 5px 10px;
+    background-color: #feff00;
+    border-radius: 5px;
+   	font-family: "Comic Sans MS";
+    font-size: 15px;
+    font-weight: 800;
+	color: #5e5e5e;
+    background-image: url('../img/icons8-expand-arrow-96.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position-x: 98%;
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+
+.income-fund .select:focus,.income-fund .select:hover{
+	outline: none;
+
+
+}
+
+.income-fund .select option{
+    background-color: #feff00;
+    font-family: "Comic Sans MS";
+    font-size: 15px;
+    font-weight: 700;
+    width: 40%;
+}
+.income-fund .send{
+    background-color: #feff00;
+    border-radius: 5px;
+	margin-top: 10px;
+
+}
+.income-fund .income-amount{
+    background-color: #feff00;
+    border-radius: 5px;
+	margin: 10px 0px;
+
+}
+
+.income-fund .income-password{
+	margin-top: 10px;
+    background-color: #feff00;
+    border-radius: 5px;
+	display: flex;
+}
+.income-fund .income-amount input, .income-fund .income-password input,.income-fund  .send input{
+	width: 100%;
+    padding: 5px 15px;
+    background-color: transparent;
+    border: none;
+    margin: 3px auto;
+    font-family: "Comic Sans MS";
+    font-size: 15px;
+    font-weight: 800;
+    color: #5e5e5e;
+    outline: none;
+
+}
+
+.income-fund .income-amount input:focus,.income-fund .income-password input:focus,.income-fund .send input:focus{
+	outline: none;
+    font-family: "Comic Sans MS";
+    font-size: 15px;
+    font-weight: 800;
+	color: #5e5e5e;
+
+}
+.income-fund .income-amount input::placeholder,.income-fund .income-password input::placeholder,.income-fund .send input::placehoder{
+	outline: none;
+    font-family: "Comic Sans MS";
+    font-size: 15px;
+	color: #5e5e5e;
+    font-weight: 800;
+    outline: none;
+
+
+}
+.income-fund .calculator{
+    border: none;
+    background-color: #feff00;
+    padding: 5px 40px;
+    margin: 10px 155px 0px 0px;
+    border-radius: 15px;
+    font-family: "Comic Sans MS";
+    font-size: 18px;
+    color: #000000;
+    font-weight: 800;
+    cursor: pointer;
+}
+.income-fund .calculator:hover,.income-fund .calculator:focus{
+	border: none;
+	outline: none;
+}
+.income-password .eye-password{
+	margin-right: 5px;
+}
+
+.income-password .eye-password  img{
+	width: 100%;
+	height: 46px;
+}
+
+/*transfer Wallet page css end*/
+
+
+
+/*payment Page css start*/
+.payment{
+	padding-top: 20px;
+	text-align: center;
+
+}
+.payment-headline{
+	padding: 80px 10px 10px 10px;
+
+}
+.payment-headline h2{
+	font-family: "Comic Sans MS";
+    font-size: 18px;
+    font-weight: 700;
+    color: #feff00;
+}
+.payment .select{
+    width: 85%;
+    padding: 10px;
+    background-color: #feff00;
+    color: ;
+   	font-family: "Comic Sans MS";
+    font-size: 20px;
+    font-weight: 700;
+	color: #5e5e5e;
+    background-image: url('../img/icons8-expand-arrow-96.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position-x: 98%;
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+
+.payment .select:focus,.payment .select:hover{
+	outline: none;
+
+
+}
+
+.payment .select option{
+    background-color: #feff00;
+    font-family: "Comic Sans MS";
+    font-size: 15px;
+    font-weight: 700;
+    width: 40%;
+}
+/*payment Page css end*/
+
+
+/*Profile page css start*/
+.profile{
+	padding-top: 80px;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #feff00;
+    text-align: center;
+}
+.profile .img{
+    width: 81px;
+    height: 81px;
+    margin: 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+
+.choose-profile{
+	position: absolute;
+    width: 60px;
+    right: 100px;
+    top: 130px;
+}
+.choose-profile .select-pic{
+	width: 35px;
+
+}
+.profile-desc{
+    padding: 10px 20px;
+}
+.profile-desc p{
+	color: #feff00;
+    font-family: "Comic Sans MS";
+    font-size: 14px;
+    font-weight: 400;
+    margin: 10px 10px;
+}
+
+
+/*Profile page css end*/
