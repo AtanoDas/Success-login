@@ -1,57 +1,57 @@
 index html css section start*/
 *{
-	padding: 0;
-	margin: 0;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 *a{
-	text-decoration: none;
+    text-decoration: none;
 }
 
 body{
-	background-color: #212932;
+    background-color: #212932;
 }
 .bg-img{
-	width: 100%;
-	min-height: 100%;
-		position: absolute;
+    width: 100%;
+    min-height: 100%;
+        position: absolute;
 }
 .bg-img img{
-	width: 100%;
-	min-height: 100%;
-	z-index: 99999;
-	transform: translateY(0px);
-	animation: bgImg 4s ease-out;
+    width: 100%;
+    min-height: 100%;
+    z-index: 99999;
+    transform: translateY(0px);
+    animation: bgImg 4s ease-out;
 }
 @keyframes bgImg{
-	0%{
-		transform: translateY(100%);
-	}
-	50%{
-		transform: translateY(50%);
-	}
-	100%{
-		transform: translateY(0%);
+    0%{
+        transform: translateY(100%);
+    }
+    50%{
+        transform: translateY(50%);
+    }
+    100%{
+        transform: translateY(0%);
 
-	}
+    }
 }
 .sign-page{
-	position: fixed;
-	margin: 35px 20px 10px 20px;
-	position: absolute;
-	align-items: center;
-	align-content: center;
+    position: fixed;
+    margin: 35px 20px 10px 20px;
+    position: absolute;
+    align-items: center;
+    align-content: center;
 
 }
 .sign-overlap{
-	position: absolute;
+    position: absolute;
 }
 .logo-img{
-	width: 100%;
-	display: flex;
-	justify-content: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .logo-img img{
-	width: 70%;
+    width: 70%;
     min-height: 100%;
 }
 .form-page{
@@ -62,91 +62,91 @@ body{
 
 }
 .username,.password{
-	padding: 10px 20px;
+    padding: 10px 20px;
     border: 2px solid #ffb200;
     border-radius: 20px;
     margin-bottom: 10px;
 }
 
 .username input,.password input{
-	font-family: "Myriad Pro", sans-serif;
+    font-family: "Myriad Pro", sans-serif;
     font-size: 20px;
     width: 80%;
     height: 35px;
     background-color: transparent;
-	color: white;
+    color: white;
     border: none;
 }
 .username input:focus,.password input:focus{
-	outline: none;
-	font-family: "Myriad Pro", sans-serif;
+    outline: none;
+    font-family: "Myriad Pro", sans-serif;
     font-size: 20px;
-	color: white;
+    color: white;
 
 }
 .password{
-	display: flex;
+    display: flex;
 }
 .eye{
-	margin-left: 30px;
+    margin-left: 30px;
 }
 
 .eye  img{
-	width: 100%;
-	height: 35px;
-	/* margin-left: 10px; */
+    width: 100%;
+    height: 35px;
+    /* margin-left: 10px; */
 }
 
 
 .remember{
-	display: flex;
+    display: flex;
 }
 .rem-1{
-	width: 170px;
-	position: absolute;
+    width: 170px;
+    position: absolute;
 }
 .rem-2{
-	position: absolute;
+    position: absolute;
     right: 20px;
-	
+    
 }
 .rem-2 p{
-	color: #59606c;
-	font-family: "Myriad Pro", sans-serif;
-	font-weight: 700;
+    color: #59606c;
+    font-family: "Myriad Pro", sans-serif;
+    font-weight: 700;
 
 }
 .rem-2 a:hover{
-	text-decoration: none;
+    text-decoration: none;
 }
 .not-remember{
-	width: 25%;
-	height: 25px;
-	background: url('../img/icons8-toggle-off-96.png');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	cursor: pointer;
+    width: 25%;
+    height: 25px;
+    background: url('../img/icons8-toggle-off-96.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
 }
 .rem-1 p{
-	color: #59606c;
+    color: #59606c;
     position: absolute;
     left: 45px;
     bottom: -15px;
 }
 .on-remember{
-	width: 25%;
-	height: 25px;
-	background: url('../img/icons8-toggle-on-96.png');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	cursor: pointer;
+    width: 25%;
+    height: 25px;
+    background: url('../img/icons8-toggle-on-96.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
 
 }
 
 .form-page .submit{
-	margin-top: 40px;
+    margin-top: 40px;
     width: 100%;
     min-height: 50px;
     border-radius: 10px;
@@ -156,23 +156,23 @@ body{
     margin-bottom: 20px;
 }
 .submit a{
-	font-family: "Myriad Pro", sans-serif;
+    font-family: "Myriad Pro", sans-serif;
     color: #59606c;
     font-weight: 600;
     font-size: 20px;
 
 }
 .submit a:hover{
-	text-decoration: none;
-	
+    text-decoration: none;
+    
 
 
 }
-.terms{
-	text-align: center;
+.sign-terms{
+    text-align: center;
 }
-.terms p{
-	font-family: "Myriad Pro";
+.sign-terms p{
+    font-family: "Myriad Pro";
     font-weight: 400;
     font-size: 14px;
     color: #59606c;
@@ -180,12 +180,16 @@ body{
 
 
 }
-.terms h4{
-	font-family: "Myriad Pro";
+.sign-terms a,.sign-terms span{
+    font-family: "Myriad Pro";
     font-weight: 900;
     font-size: 16px;
     color: #59606c;
+    display: inline-block;
 
+}
+.sign-terms a:hover,.sign-terms a:focus{
+text-decoration: none !important;
 }
 
 /*index html css section end*/
@@ -198,7 +202,7 @@ body{
 
 /*Header Footer Css Start*/
 .header{
-	width: 100%;
+    width: 100%;
     height: 60px;
     position: fixed;
     z-index: 12;
@@ -206,30 +210,30 @@ body{
 
 }
 .header img{
-	width: 40px;
-	height: 40px;
+    width: 40px;
+    height: 40px;
 }
 
 .header-part{
-	display: flex;
-	padding: 5px 10px;
+    display: flex;
+    padding: 5px 10px;
 }
 .blog-1{
-	flex: 1;
+    flex: 1;
 }
 .blog-2{
-	flex: 2;
-	text-align: center;
+    flex: 2;
+    text-align: center;
 }
 .blog-3{
-	flex: 1;
-	text-align: end;
+    flex: 1;
+    text-align: end;
 }
 input[type="checkbox"]{
-	display: none;
+    display: none;
 }
 #show:checked ~ .popup{
-	display: block;
+    display: block;
 }
 
 .popup {
@@ -269,14 +273,14 @@ margin-top: 60px;
 
 }
 .option .no{
-	
+    
 }
 
 .header-part h2{
-	color: #feff00;
-	font-size: 30px;
-	font-family: "Myriad Pro", sans-serif;
-	margin: 5px;
+    color: #feff00;
+    font-size: 30px;
+    font-family: "Myriad Pro", sans-serif;
+    margin: 5px;
 }
 .header-part p{
     font-family: "Myriad Pro", sans-serif;
@@ -291,13 +295,13 @@ margin-top: 60px;
 
 }
 .header-part .notification-count{
-	position: absolute;
+    position: absolute;
     left: 35px;
     top: 25px;
 
 }
 .header-part .add-count{
-	position: absolute;
+    position: absolute;
     left: 85px;
     top: 10px;
 }
@@ -307,33 +311,33 @@ margin-top: 60px;
 
 
 .footer{
-	width: 100%;
-	height: 50px;
-	position: fixed;
-	z-index: 12;
-	background-color: #000000;
-	bottom: 0px;
-	padding: 5px;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    z-index: 12;
+    background-color: #000000;
+    bottom: 0px;
+    padding: 5px;
 
 }
 .footer img{
-	width: 40px;
-	height: 40px;
-	cursor: pointer;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
 
 }
 
 .footer .icon{
-	text-align: center;
+    text-align: center;
 }
 .footer button{
-	background-color: transparent;
-	border: none;
+    background-color: transparent;
+    border: none;
 }
 .footer button:hover{
-	color: none;
-	outline: none;
-	border: none;
+    color: none;
+    outline: none;
+    border: none;
 
 }
 
@@ -343,13 +347,13 @@ margin-top: 60px;
     width: 100%;
     height: 60px;
     position: fixed;
-	z-index: 12;
+    z-index: 12;
 
     background-color: #feff00;
     text-align: center;
 }
 .header2 h1{
-	font-family: "Comic Sans MS";
+    font-family: "Comic Sans MS";
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 10px;
@@ -359,38 +363,38 @@ margin-top: 60px;
 /*Header Footer Css End*/
 
 .product-content{
-	width: 100%;
-	min-height: 100%;
-	padding-top: 70px;
+    width: 100%;
+    min-height: 100%;
+    padding-top: 70px;
 
 }
 .product-content .logo{
-	width: 100%;
-	height: 50px;
-	text-align: center;
+    width: 100%;
+    height: 50px;
+    text-align: center;
 
 }
 .product-content .logo img{
-	width: 120px;
+    width: 120px;
     height: 100px;
 }
 .product-col{
-	background-color: #feff00;
-	width: 100%;
-	min-height: 100vh;
-	text-align: center;
-	margin-top: 55px;
-	padding: 10px;
+    background-color: #feff00;
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    margin-top: 55px;
+    padding: 10px;
 }
 .product-col h1{
-	font-family: "Comic Sans MS";
+    font-family: "Comic Sans MS";
     font-size: 20px;
     font-weight: 600;
     text-decoration: underline;
     margin-bottom: 15px;
 }
 .product-display{
-	display: flex;
+    display: flex;
 }
 .product-display img{
     width: 85px;
@@ -407,38 +411,38 @@ margin-top: 60px;
 
 /*About page css start */
 .about-content{
-	width: 100%;
-	min-height: 100%;
-	padding-top: 70px;
+    width: 100%;
+    min-height: 100%;
+    padding-top: 70px;
 
 }
 .about-content .logo{
-	width: 100%;
-	height: 50px;
-	text-align: center;
+    width: 100%;
+    height: 50px;
+    text-align: center;
 
 }
 .about-content .logo img{
-	width: 120px;
+    width: 120px;
     height: 100px;
 }
 .about{
-	background-color: #feff00;
-	width: 100%;
-	min-height: 100vh;
-	text-align: center;
-	margin-top: 55px;
-	padding: 10px;
+    background-color: #feff00;
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    margin-top: 55px;
+    padding: 10px;
 }
 .about h1{
-	font-family: "Comic Sans MS";
+    font-family: "Comic Sans MS";
     font-size: 20px;
     font-weight: 600;
     text-decoration: underline;
     margin-bottom: 15px;
 }
 .about p{
-	font-family: "Comic Sans MS";
+    font-family: "Comic Sans MS";
     font-size: 15px;
     font-weight: 400;
     margin-bottom: 15px;
@@ -446,17 +450,102 @@ margin-top: 60px;
 /*About page css end*/
 
 
+/*privacy page css start */
+.privacy-content{
+    width: 100%;
+    min-height: 100%;
+    padding-top: 70px;
+
+}
+.privacy-content .logo{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+
+}
+.privacy-content .logo img{
+    width: 120px;
+    height: 100px;
+}
+.privacy{
+    background-color: #feff00;
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    margin-top: 55px;
+    padding: 10px;
+}
+.privacy h1{
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+.privacy p{
+    font-family: "Comic Sans MS";
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+/*privacy page css end*/
+
+
+/*terms page css start */
+.terms-content{
+    width: 100%;
+    min-height: 100%;
+    padding-top: 70px;
+
+}
+.terms-content .logo{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+
+}
+.terms-content .logo img{
+    width: 120px;
+    height: 100px;
+}
+.terms{
+    background-color: #feff00;
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    margin-top: 55px;
+    padding: 10px;
+}
+.terms h1{
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+.terms p{
+    font-family: "Comic Sans MS";
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+/*terms page css end*/
+
+
+
+
+
 /*Rank-gallery page css start*/
 
 
 .rank form{
-	padding-top: 60px;
+    padding-top: 60px;
 
 }
 .table-bordered td, .table-bordered th {
     border: 1px solid #feff00;
     color: #feff00;
-  	font-family: "Comic Sans MS";
+    font-family: "Comic Sans MS";
     font-size: 15px;
     font-weight: 500;
     text-align: center;
@@ -465,7 +554,7 @@ margin-top: 60px;
     vertical-align: bottom;
     border-bottom: 2px solid #feff00;
     color: #feff00;
-  	font-family: "Comic Sans MS";
+    font-family: "Comic Sans MS";
     font-size: 15px;
     font-weight: 500;
 }
@@ -479,12 +568,12 @@ margin-top: 60px;
 
 
 .transection-icon{
-	padding-top: 80px;
-	margin-bottom: 150px;
+    padding-top: 80px;
+    margin-bottom: 150px;
 
 }
 .transection-icon .col{
-	padding: 0px;
+    padding: 0px;
 }
 
 .transection-icon img{
@@ -497,7 +586,7 @@ margin-top: 60px;
     box-shadow: 0px 0px 8px 4px rgb(135 139 144);
 }
 .transection-icon h4{
-	font-family: "Comic Sans MS";
+    font-family: "Comic Sans MS";
     font-size: 14px;
     font-weight: 400;
     color: #feff00;
@@ -513,7 +602,7 @@ margin-top: 60px;
 /*my-team page css start*/
 
 .team form{
-	padding-top: 60px;
+    padding-top: 60px;
 
 }
 
@@ -527,8 +616,8 @@ margin-top: 60px;
 
 /*register page css start*/
 .profile-pic{
-	padding-top: 65px;
-	text-align: center;
+    padding-top: 65px;
+    text-align: center;
 }
 
 .profile-pic .pic{
@@ -541,56 +630,56 @@ margin-top: 60px;
     box-shadow: 0px 0px 8px 4px rgb(135 139 144);
 }
 .choose{
-	position: absolute;
+    position: absolute;
     width: 60px;
     right: 105px;
     top: 120px;
 }
 .choose .select-pic{
-	width: 30px;
+    width: 30px;
 
 } 
 .choose p{
-	font-family: "Comic Sans MS";
-	font-size: 8px;
+    font-family: "Comic Sans MS";
+    font-size: 8px;
     font-weight: 400;
     color: #feff00;
 
 }
 .profile-form{
-	margin-top: 10px;
+    margin-top: 10px;
 }
 .p-form{
-
+    padding-bottom: 80px;
 }
 .p-form input{
-	width: 100%;
+    width: 100%;
     padding: 5px 15px;
     background-color: transparent;
     border: 2px solid #feff00;
     margin: 3px auto;
-	font-family: "Comic Sans MS";
-	font-size: 18px;
+    font-family: "Comic Sans MS";
+    font-size: 18px;
     font-weight: 400;
-	color: #feff00;
+    color: #feff00;
 
 
 }
 
 .p-form input::placeholder{
-	font-family: "Comic Sans MS";
-	font-size: 18px;
+    font-family: "Comic Sans MS";
+    font-size: 18px;
     font-weight: 400;
-	color: #feff00;
+    color: #feff00;
 }
 .p-form input:focus{
-	font-family: "Comic Sans MS";
-	font-size: 18px;
+    font-family: "Comic Sans MS";
+    font-size: 18px;
     font-weight: 400;
-	color: #feff00;
+    color: #feff00;
 }
 .p-form .submit{
-	text-align: center;
+    text-align: center;
     width: 100%;
     background: none;
     border: none;
@@ -598,13 +687,23 @@ margin-top: 60px;
 
 }
 .p-form a{
-	background-color: #feff00;
+    background-color: #feff00;
     padding: 10px 120px;
     border-radius: 20px;
     font-family: "Comic Sans MS";
-	font-size: 18px;
+    font-size: 18px;
     font-weight: 700;
     color: black;
+}
+.p-form .select{
+    width: 100%;
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 2px solid #feff00;
+    color: #feff00;
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+
 }
 
 
@@ -630,13 +729,13 @@ margin-top: 60px;
 padding: 40px 10px 0px 60px;
 }
 .deshboard .desc h2{
-	font-family: "Myriad Pro", sans-serif;
+    font-family: "Myriad Pro", sans-serif;
     font-size: 20px;
     font-weight: 800;
     margin-bottom: 0px;
 }
 .deshboard .desc p{
-	font-family: "Myriad Pro", sans-serif;
+    font-family: "Myriad Pro", sans-serif;
     font-weight: 500;
 }
 .deshboard img{
@@ -650,7 +749,7 @@ padding: 40px 10px 0px 60px;
     margin-bottom: 150px;
 }
 .deshboard-icon .col{
-	padding: 0px;
+    padding: 0px;
 }
 
 .deshboard-icon img{
@@ -663,7 +762,7 @@ padding: 40px 10px 0px 60px;
     box-shadow: 0px 0px 8px 4px rgb(135 139 144);
 }
 .deshboard-icon h4{
-	font-family: "Comic Sans MS";
+    font-family: "Comic Sans MS";
     font-size: 14px;
     font-weight: 400;
     color: #feff00;
@@ -679,8 +778,8 @@ padding: 40px 10px 0px 60px;
 /*Update profile page css start*/
 
 .update-pic{
-	padding-top: 65px;
-	text-align: center;
+    padding-top: 65px;
+    text-align: center;
 }
 
 .update-pic .pic{
@@ -693,65 +792,65 @@ padding: 40px 10px 0px 60px;
     box-shadow: 0px 0px 8px 4px rgb(135 139 144);
 }
 .update-pic .choose{
-	position: absolute;
+    position: absolute;
     width: 60px;
     right: 105px;
     top: 120px;
 }
 .update-pic .choose .select-pic{
-	width: 30px;
+    width: 30px;
 
 } 
 .update-pic .choose p{
-	font-family: "Comic Sans MS";
-	font-size: 8px;
+    font-family: "Comic Sans MS";
+    font-size: 8px;
     font-weight: 400;
     color: #feff00;
 
 }
 .update-form{
-	margin-top: 10px;
+    margin-top: 10px;
 }
 .u-form{
 
 }
 .u-form input{
-	width: 100%;
+    width: 100%;
     padding: 5px 15px;
     background-color: transparent;
     border: 2px solid #feff00;
     margin: 3px auto;
-	font-family: "Comic Sans MS";
-	font-size: 18px;
+    font-family: "Comic Sans MS";
+    font-size: 18px;
     font-weight: 400;
-	color: #feff00;
+    color: #feff00;
     
 
 }
 .u-form input:focus{
-	font-family: "Comic Sans MS";
-	font-size: 18px;
+    font-family: "Comic Sans MS";
+    font-size: 18px;
     font-weight: 400;
-	color: #feff00;
+    color: #feff00;
 }
 .u-form input:type{
-	color: #feff00;
+    color: #feff00;
 
 }
 .u-form input::placeholder{
-	font-family: "Comic Sans MS";
-	font-size: 18px;
+    font-family: "Comic Sans MS";
+    font-size: 18px;
     font-weight: 400;
-	color: #feff00;
+    color: #feff00;
 }
 .u-form .bdate{
-	font-family: "Comic Sans MS";
-	font-size: 18px;
+    font-family: "Comic Sans MS";
+    font-size: 18px;
     font-weight: 400;
-	color: #feff00;
+    color: #feff00;
 }
 .u-form .update{
-	text-align: center;
+    text-align: center;
     width: 48%;
     background: none;
     border: none;
@@ -759,7 +858,7 @@ padding: 40px 10px 0px 60px;
 
 }
 .u-form .more{
-	text-align: center;
+    text-align: center;
     width: 48%;
     background: none;
     border: none;
@@ -767,16 +866,16 @@ padding: 40px 10px 0px 60px;
 
 }
 .u-form a{
-	background-color: #feff00;
+    background-color: #feff00;
     padding: 10px 50px;
     border-radius: 20px;
     font-family: "Comic Sans MS";
-	font-size: 18px;
+    font-size: 18px;
     font-weight: 700;
     color: black;
 }
 .u-form a:hover{
-	text-decoration: none;
+    text-decoration: none;
 }
 
 
@@ -791,26 +890,26 @@ padding: 40px 10px 0px 60px;
 /*Withdraw report page css start*/
 
 .withdraw{
-	padding-top: 60px;
+    padding-top: 60px;
 
 }
 .withdraw .agent{
     border-bottom: 1px solid yellow;
     border-right: 1px solid yellow;
     padding: 10px 20px 5px 20px;
-	
+    
 }
 .withdraw .status{
-	border-bottom: 1px solid yellow;
+    border-bottom: 1px solid yellow;
     padding: 10px 20px 5px 20px;
 
 }
 .withdraw .agent label,.withdraw .status label{
-	font-family: "Comic Sans MS";
-	font-size: 15px;
+    font-family: "Comic Sans MS";
+    font-size: 15px;
     font-weight: 400;
     color: #feff00;
-	
+    
 }
 
 /*Withdraw report page css end*/
@@ -824,7 +923,7 @@ padding: 40px 10px 0px 60px;
 
 }
 .fund-transfer h2{
-	font-family: "Comic Sans MS";
+    font-family: "Comic Sans MS";
     font-size: 20px;
     font-weight: 700;
     color: #feff00;
@@ -835,7 +934,7 @@ padding: 40px 10px 0px 60px;
 
 }
 .fund p{
-	color: #00d2ff;
+    color: #00d2ff;
     display: inline;
     font-family: "Comic Sans MS";
     font-size: 20px;
@@ -843,26 +942,26 @@ padding: 40px 10px 0px 60px;
 
 }
 .fund span{
-	color: #00d2ff;
+    color: #00d2ff;
     font-family: "Comic Sans MS";
     font-size: 20px;
     font-weight: 700;
 
 }
 .fund .amount{
-	margin-top: 10px;
+    margin-top: 10px;
     background-color: #feff00;
     border-radius: 5px;
 }
 
 .fund .f-password{
-	margin-top: 10px;
+    margin-top: 10px;
     background-color: #feff00;
     border-radius: 5px;
-	display: flex;
+    display: flex;
 }
 .fund .amount input, .fund .f-password input{
-	width: 100%;
+    width: 100%;
     padding: 5px 15px;
     background-color: transparent;
     border: none;
@@ -875,19 +974,19 @@ padding: 40px 10px 0px 60px;
 }
 
 .amount input:focus,.f-password input:focus{
-	outline: none;
+    outline: none;
     font-family: "Comic Sans MS";
     font-size: 20px;
     font-weight: 700;
-	color: #5e5e5e;
+    color: #5e5e5e;
 
 
 }
 .amount input::placeholder,.f-password input::placeholder{
-	outline: none;
+    outline: none;
     font-family: "Comic Sans MS";
     font-size: 20px;
-	color: #5e5e5e;
+    color: #5e5e5e;
     font-weight: 700;
 
 
@@ -905,16 +1004,16 @@ padding: 40px 10px 0px 60px;
     cursor: pointer;
 }
 .fund .calculator:hover,.fund .calculator:focus{
-	border: none;
-	outline: none;
+    border: none;
+    outline: none;
 }
 .eye-password{
-	margin-right: 20px;
+    margin-right: 20px;
 }
 
 .eye-password  img{
-	width: 100%;
-	height: 46px;
+    width: 100%;
+    height: 46px;
 }
 
 /*own fund transfer page css end*/
@@ -923,8 +1022,8 @@ padding: 40px 10px 0px 60px;
 /*Renew User page css Start*/
 
 .renew-user{
-	padding-top: 80px;
-	text-align: center;
+    padding-top: 80px;
+    text-align: center;
 
 }
 .renew-user .select{
@@ -934,7 +1033,7 @@ padding: 40px 10px 0px 60px;
     background-color: transparent;
     border: 2px solid #feff00;
     color: #feff00;
-   	font-family: "Comic Sans MS";
+    font-family: "Comic Sans MS";
     font-size: 20px;
     background-image: url('../img/icons8-expand-arrow-96.png');
     background-position: right;
@@ -946,7 +1045,7 @@ padding: 40px 10px 0px 60px;
 }
 
 .select:focus,.select:hover{
-	outline: none;
+    outline: none;
 
 }
 .select option{
@@ -956,7 +1055,7 @@ padding: 40px 10px 0px 60px;
     width: 40%;
 }
 .renew{
-	position: absolute;
+    position: absolute;
     bottom: 70px;
     left: 150px;
 }
@@ -978,16 +1077,16 @@ padding: 40px 10px 0px 60px;
 
 /*Report Page css start*/
 .report{
-	padding-top: 20px;
-	text-align: center;
+    padding-top: 20px;
+    text-align: center;
 
 }
 .report-headline{
-	padding: 80px 10px 10px 10px;
+    padding: 80px 10px 10px 10px;
 
 }
 .report-headline h2{
-	font-family: "Comic Sans MS";
+    font-family: "Comic Sans MS";
     font-size: 18px;
     font-weight: 700;
     color: #feff00;
@@ -997,10 +1096,10 @@ padding: 40px 10px 0px 60px;
     padding: 10px;
     background-color: #feff00;
     color: ;
-   	font-family: "Comic Sans MS";
+    font-family: "Comic Sans MS";
     font-size: 20px;
     font-weight: 700;
-	color: #5e5e5e;
+    color: #5e5e5e;
     background-image: url('../img/icons8-expand-arrow-96.png');
     background-position: right;
     background-repeat: no-repeat;
@@ -1011,7 +1110,7 @@ padding: 40px 10px 0px 60px;
 }
 
 .report .select:focus,.report .select:hover{
-	outline: none;
+    outline: none;
 
 
 }
@@ -1030,16 +1129,16 @@ padding: 40px 10px 0px 60px;
 
 /*transfer Wallet page css start*/
 .transfer{
-	padding: 0px 30px;
-	text-align: center;
+    padding: 0px 30px;
+    text-align: center;
 
 }
 .transfer-headline{
-	padding: 80px 10px 0px 55px;
+    padding: 80px 10px 0px 55px;
 
 }
 .transfer-headline h2{
-	font-family: "Comic Sans MS";
+    font-family: "Comic Sans MS";
     font-size: 15px;
     font-weight: 700;
     color: #feff00;
@@ -1049,10 +1148,10 @@ padding: 40px 10px 0px 60px;
     padding: 5px;
     background-color: #feff00;
     border-radius: 5px;
-   	font-family: "Comic Sans MS";
+    font-family: "Comic Sans MS";
     font-size: 18px;
     font-weight: 700;
-	color: #5e5e5e;
+    color: #5e5e5e;
     background-image: url('../img/icons8-expand-arrow-96.png');
     background-position: right;
     background-repeat: no-repeat;
@@ -1063,7 +1162,7 @@ padding: 40px 10px 0px 60px;
 }
 
 .transfer .select:focus,.transfer .select:hover{
-	outline: none;
+    outline: none;
 
 
 }
@@ -1076,10 +1175,10 @@ padding: 40px 10px 0px 60px;
     width: 40%;
 }
 .t-fund{
-	padding: 5px 30px;
+    padding: 5px 30px;
 }
 .t-fund p{
-	color: #00d2ff;
+    color: #00d2ff;
     display: inline;
     font-family: "Comic Sans MS";
     font-size: 18px;
@@ -1087,7 +1186,7 @@ padding: 40px 10px 0px 60px;
 
 }
 .t-fund span{
-	color: #00d2ff;
+    color: #00d2ff;
     font-family: "Comic Sans MS";
     font-size: 18px;
     font-weight: 500;
@@ -1101,24 +1200,24 @@ padding: 40px 10px 0px 60px;
 .t-fund .t-amount{
     background-color: #feff00;
     border-radius: 5px;
-	margin-top: 10px;
+    margin-top: 10px;
 
 }
 
 .t-fund .t-password{
-	margin-top: 10px;
+    margin-top: 10px;
     background-color: #feff00;
     border-radius: 5px;
-	display: flex;
+    display: flex;
 }
 .t-fund .t-comments{
     background-color: #feff00;
     border-radius: 5px;
-	margin-top: 10px;
+    margin-top: 10px;
 
 }
 .t-fund .t-amount input, .t-fund .t-password input,.t-fund  .t-send input{
-	width: 100%;
+    width: 100%;
     padding: 5px 15px;
     background-color: transparent;
     border: none;
@@ -1132,26 +1231,26 @@ padding: 40px 10px 0px 60px;
 }
 
 .t-amount input:focus,.t-password input:focus,.t-send input:focus,.t-comments textarea: focus{
-	outline: none;
+    outline: none;
     font-family: "Comic Sans MS";
     font-size: 15px;
     font-weight: 800;
-	color: #5e5e5e;
+    color: #5e5e5e;
 
 }
 .t-amount input::placeholder,.t-password input::placeholder,.t-send input::placehoder, .t-comments textarea::placehoder{
-	outline: none;
+    outline: none;
     font-family: "Comic Sans MS";
     font-size: 15px;
-	color: #5e5e5e;
+    color: #5e5e5e;
     font-weight: 800;
     outline: none;
 
 
 }
 .t-comments textarea{
-	width: 100%;
-	height: 15vh;
+    width: 100%;
+    height: 15vh;
     padding: 5px 15px;
     background-color: transparent;
     border: none;
@@ -1176,16 +1275,16 @@ padding: 40px 10px 0px 60px;
     cursor: pointer;
 }
 .t-fund .calculator:hover,.t-fund .calculator:focus{
-	border: none;
-	outline: none;
+    border: none;
+    outline: none;
 }
 .eye-password{
-	margin-right: 20px;
+    margin-right: 20px;
 }
 
 .eye-password  img{
-	width: 100%;
-	height: 46px;
+    width: 100%;
+    height: 46px;
 }
 
 /*transfer Wallet page css end*/
@@ -1193,9 +1292,9 @@ padding: 40px 10px 0px 60px;
 
 /*accepted-withdraw page css start*/
 .accepted{
-	position: absolute;
-	bottom: 20%;
-	left: 30%;
+    position: absolute;
+    bottom: 20%;
+    left: 30%;
 }
 .accepted .accepted-btn{
     background-color: #ff0000;
@@ -1217,12 +1316,12 @@ padding: 40px 10px 0px 60px;
 
 
 /*agent-withdraw page css start*/
-.agent{
-	position: absolute;
-	bottom: 20%;
-	left: 30%;
+.agent-withdraw{
+    position: absolute;
+    bottom: 20%;
+    left: 30%;
 }
-.agent .agent-btn{
+.agent-withdraw .agent-btn{
     background-color: #ff0000;
     padding: 10px 25px;
     border-radius: 50px;
@@ -1243,15 +1342,15 @@ padding: 40px 10px 0px 60px;
 
 /*transfer Wallet page css start*/
 .income-fund{
-	padding: 0px 30px;
-	text-align: center;
+    padding: 0px 30px;
+    text-align: center;
 
 }
 .income-headline{
     padding: 80px 10px 20px 20px;
 }
 .income-headline h2{
-	font-family: "Comic Sans MS";
+    font-family: "Comic Sans MS";
     font-size: 15px;
     font-weight: 500;
     color: #feff00;
@@ -1261,10 +1360,10 @@ padding: 40px 10px 0px 60px;
     padding: 5px 10px;
     background-color: #feff00;
     border-radius: 5px;
-   	font-family: "Comic Sans MS";
+    font-family: "Comic Sans MS";
     font-size: 15px;
     font-weight: 800;
-	color: #5e5e5e;
+    color: #5e5e5e;
     background-image: url('../img/icons8-expand-arrow-96.png');
     background-position: right;
     background-repeat: no-repeat;
@@ -1275,7 +1374,7 @@ padding: 40px 10px 0px 60px;
 }
 
 .income-fund .select:focus,.income-fund .select:hover{
-	outline: none;
+    outline: none;
 
 
 }
@@ -1290,24 +1389,24 @@ padding: 40px 10px 0px 60px;
 .income-fund .send{
     background-color: #feff00;
     border-radius: 5px;
-	margin-top: 10px;
+    margin-top: 10px;
 
 }
 .income-fund .income-amount{
     background-color: #feff00;
     border-radius: 5px;
-	margin: 10px 0px;
+    margin: 10px 0px;
 
 }
 
 .income-fund .income-password{
-	margin-top: 10px;
+    margin-top: 10px;
     background-color: #feff00;
     border-radius: 5px;
-	display: flex;
+    display: flex;
 }
 .income-fund .income-amount input, .income-fund .income-password input,.income-fund  .send input{
-	width: 100%;
+    width: 100%;
     padding: 5px 15px;
     background-color: transparent;
     border: none;
@@ -1321,18 +1420,18 @@ padding: 40px 10px 0px 60px;
 }
 
 .income-fund .income-amount input:focus,.income-fund .income-password input:focus,.income-fund .send input:focus{
-	outline: none;
+    outline: none;
     font-family: "Comic Sans MS";
     font-size: 15px;
     font-weight: 800;
-	color: #5e5e5e;
+    color: #5e5e5e;
 
 }
 .income-fund .income-amount input::placeholder,.income-fund .income-password input::placeholder,.income-fund .send input::placehoder{
-	outline: none;
+    outline: none;
     font-family: "Comic Sans MS";
     font-size: 15px;
-	color: #5e5e5e;
+    color: #5e5e5e;
     font-weight: 800;
     outline: none;
 
@@ -1351,16 +1450,16 @@ padding: 40px 10px 0px 60px;
     cursor: pointer;
 }
 .income-fund .calculator:hover,.income-fund .calculator:focus{
-	border: none;
-	outline: none;
+    border: none;
+    outline: none;
 }
 .income-password .eye-password{
-	margin-right: 5px;
+    margin-right: 5px;
 }
 
 .income-password .eye-password  img{
-	width: 100%;
-	height: 46px;
+    width: 100%;
+    height: 46px;
 }
 
 /*transfer Wallet page css end*/
@@ -1369,16 +1468,16 @@ padding: 40px 10px 0px 60px;
 
 /*payment Page css start*/
 .payment{
-	padding-top: 20px;
-	text-align: center;
+    padding-top: 20px;
+    text-align: center;
 
 }
 .payment-headline{
-	padding: 80px 10px 10px 10px;
+    padding: 80px 10px 10px 10px;
 
 }
 .payment-headline h2{
-	font-family: "Comic Sans MS";
+    font-family: "Comic Sans MS";
     font-size: 18px;
     font-weight: 700;
     color: #feff00;
@@ -1388,10 +1487,10 @@ padding: 40px 10px 0px 60px;
     padding: 10px;
     background-color: #feff00;
     color: ;
-   	font-family: "Comic Sans MS";
+    font-family: "Comic Sans MS";
     font-size: 20px;
     font-weight: 700;
-	color: #5e5e5e;
+    color: #5e5e5e;
     background-image: url('../img/icons8-expand-arrow-96.png');
     background-position: right;
     background-repeat: no-repeat;
@@ -1402,7 +1501,7 @@ padding: 40px 10px 0px 60px;
 }
 
 .payment .select:focus,.payment .select:hover{
-	outline: none;
+    outline: none;
 
 
 }
@@ -1419,7 +1518,7 @@ padding: 40px 10px 0px 60px;
 
 /*Profile page css start*/
 .profile{
-	padding-top: 80px;
+    padding-top: 80px;
     padding-bottom: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -1436,20 +1535,20 @@ padding: 40px 10px 0px 60px;
 
 
 .choose-profile{
-	position: absolute;
+    position: absolute;
     width: 60px;
     right: 100px;
     top: 130px;
 }
 .choose-profile .select-pic{
-	width: 35px;
+    width: 35px;
 
 }
 .profile-desc{
     padding: 10px 20px;
 }
 .profile-desc p{
-	color: #feff00;
+    color: #feff00;
     font-family: "Comic Sans MS";
     font-size: 14px;
     font-weight: 400;
@@ -1458,3 +1557,254 @@ padding: 40px 10px 0px 60px;
 
 
 /*Profile page css end*/
+
+
+
+
+/*sales report page css start*/
+
+.sales-report{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 12;
+    background-color: #feff00;
+    padding: 5px;
+}
+
+.sales-report h1{
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0px 0px 0px;
+    color: #000000;
+
+}
+.sales-report .search{
+    display: flex;
+    margin: 5px 20px 0px 0px;
+    border: 2px solid #8b8f16;
+    border-radius: 50px;
+}
+.search img{
+    margin-left: -10px;
+    width: 40px;
+    height: 40px;
+}
+.search h2{
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    font-weight: 800;
+    color: #000000;
+    padding: 5px 0px 0px 0px;
+}
+.saler-details{
+    padding-top: 65px;
+}
+.saler-details .saler-img{
+    padding: 20px;
+    text-align: center;
+}
+.saler-details .saler-img img{
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+.saler-details .saler-img p{
+    color: #feff00;
+    font-family: "Comic Sans MS";
+    font-size: 14px;
+    font-weight: 400;
+}
+.saler-details .line{
+    border-bottom: 1px solid #feff00;
+    margin-bottom: 5px;
+}
+.saler-details .sales-desc{
+
+}
+.saler-details .sales-desc p{
+    color: #feff00;
+    font-family: "Comic Sans MS";
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.saler-details .sales-desc .p-span{
+
+}
+
+.saler-details .sales-desc .p-span p{
+    display: inline-block;
+    color: #feff00;
+    font-family: "Comic Sans MS";
+    font-size: 14px;
+    font-weight: 700;
+}
+.saler-details .sales-desc .p-span span{
+    color: #feff00;
+    font-family: "Comic Sans MS";
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/*sales report page css end*/
+
+
+
+/*sales report page css start*/
+
+.member-list .search{
+    display: flex;
+    width: 90%;
+    margin: 10px auto;
+    border: 2px solid #8b8f16;
+    border-radius: 50px;
+}
+.member-list .search img{
+    margin-left: -10px;
+    width: 40px;
+    height: 40px;
+}
+.member-list .search h2{
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    font-weight: 800;
+    color: #000000;
+    padding: 5px 0px 0px 0px;
+}
+.member-details{
+    padding-top: 65px;
+}
+.member-details .member-img{
+    padding: 10px;
+    text-align: center;
+}
+.member-details .member-img img{
+    width: 90px;
+    height: 90px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+.member-details .line{
+    border-bottom: 1px solid #feff00;
+    margin-bottom: 5px;
+}
+.member-details .member-desc{
+    padding: 10px 0px;
+
+}
+
+.member-details .member-desc .p-span p{
+    display: inline-block;
+    color: #feff00;
+    font-family: "Comic Sans MS";
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.member-details .member-desc .p-span span{
+    color: #feff00;
+    font-family: "Comic Sans MS";
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/*sales report page css end*/
+
+
+
+/*accont-status-balance page css start*/
+.acc-balance{
+    padding-top: 70px;
+    padding-bottom: 10px;
+}
+.acc-balance button{
+    color: #feff00;
+    background-color: transparent;
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0px;
+    border: none;
+}
+
+.acc-balance button:hover{
+    text-decoration: underline;
+    outline: none;
+}
+.shop{
+    display: none;
+}
+.income-title,.expense-title,.expense2-title{
+    background-color: #feff00;
+    height: 35px;
+    padding: 2px 10px;
+}
+.income h2,.expense-title h2,.expense2-title h2{
+    color: #000000;
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    font-weight: 700;
+}
+.income-table{
+
+}
+.column-name{
+   padding: 0px !important;
+}
+.column-name p{
+    color: #feff00;
+    font-family: "Comic Sans MS";
+    font-size: 14px;
+    font-weight: 600;
+    border-bottom: 2px solid #feff00;
+    margin: 0px;
+    padding: 10px 0px 10px 10px;
+}
+.column-income{
+    text-align: end;
+   padding: 0px !important;
+
+
+}
+.column-income p{
+    color: #feff00;
+    font-family: "Comic Sans MS";
+    font-size: 14px;
+    font-weight: 600;
+    border-bottom: 2px solid #feff00;
+    border-left: 2px solid #feff00;
+    margin: 0px;
+    padding: 10px 10px 10px 0px;
+}
+.last-left{
+    color: #000000 !important;
+    background-color: #feff00;
+    margin-bottom: 15px !important;
+    margin-top: -2px !important;
+    border-bottom: 2px solid #000000 !important;
+    border-left: 2px solid #000000 !important;
+    border-top: 2px solid #000000 !important;
+}
+.last-right{
+    color: #000000 !important;
+    background-color: #feff00;
+    margin-top: -2px !important;
+    margin-bottom: 15px !important;
+    border: 2px solid #000000 !important;
+}
+
+.expense .expense-title{
+    background-color: #feff00;
+    height: 35px;
+    padding: 2px 10px;
+}
+.shop .expense{
+    padding-top: 10px;
+}
+
+
+
+/*accont-status-balance page css end*/

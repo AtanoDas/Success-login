@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/responsive.css">
+    
+
+
+  <title>Hello, world!</title>
+</head>
+<body>
+<header>
+     <div class="header2">
+      <h1>My Team</h1>
+     </div> 
+</header>
+<!-- Main content here -->
+
+<section class="acc-balance">
+  <div class="container">
+    <div class="row">
+      <div class="col text-center">
+        <button onclick="income()" class="active">Income Balance</button>
+      </div>
+            <div class="col text-center">
+        <button onclick="shop()">Shop Balance</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="income">
+  <div class="income-title"><h2>Income</h2>
+  </div>
+  <div class="income-page" id="income">
+    <div class="income-table">
+    <div class="container">
+      <div class="row">
+        <div class="col column-name">
+          <p>Referral Income</p>
+          <p>Ads Income</p>
+          <p>Star Bonus</p>
+          <p>Special Bonus</p>
+          <p>Generation Bonus</p>
+          <p>Agent Bonus</p>
+          <p class="last-left">Total Outflow</p>
+
+        </div>
+        <div class="col column-income">
+          <p>490.33</p>
+          <p>1454.00</p>
+          <p>0.00</p>
+          <p>0.00</p>
+          <p>1519.81</p>
+          <p>0.00</p>
+          <p class="last-right">3,454.73</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="expense">
+  <div class="expense-title"><h2>Expanse</h2>
+  </div>
+  <div class="expanse-table">
+      <div class="container">
+        <div class="row">
+          <div class="col column-name">
+            <p>Withdrawal</p>
+            <p>Interal Transfer (Out)</p>
+            <p class="last-left">Total Expense</p>
+          </div>
+          <div class="col column-income">
+            <p>1123.33</p>
+            <p>0.00</p>
+            <p class="last-right">1133.33</p>
+          </div>
+            
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="expense2">
+  <div class="expense2-title"><h2>Expanse</h2>
+  </div>
+  <div class="expanse2-table">
+    <div class="container">
+      <div class="row">
+        <div class="col column-name">
+          <p class="last-left">Income Balance</p>
+
+        </div>
+        <div class="col column-income">
+          <p class="last-right">355.73</p>
+        </div>
+          
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+
+</section>
+
+
+
+<section class="shop" id="shop" onclick="shop()">
+  <div class="expense">
+  <div class="expense-title"><h2>Expanse</h2>
+  </div>
+  <div class="expanse-table">
+      <div class="container">
+        <div class="row">
+          <div class="col column-name">
+            <p>Joining Cast</p>
+            <p>Traning Cast</p>
+            <p>Re-New Cast</p>
+            <p>Member Transfer Out</p>
+            <p>Product Purchase</p>
+            <p>Mobile Recharge</p>
+            <p>SMS Consumption</p>
+            <p class="last-left">Total Outflow</p>
+          </div>
+          <div class="col column-income">
+            <p>142,500.00</p>
+            <p>0.00</p>
+            <p>0.00</p>
+            <p>17,580.00</p>
+            <p>0.00</p>
+            <p>0.00</p>
+            <p>0.00</p>
+            <p class="last-right">160.080.00</p>
+          </div>
+            
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="expense2">
+  <div class="expense2-title"><h2>Expanse</h2>
+  </div>
+  <div class="expanse2-table">
+    <div class="container">
+      <div class="row">
+        <div class="col column-name">
+          <p class="last-left">Shopping Balance</p>
+
+        </div>
+        <div class="col column-income">
+          <p class="last-right">3.55</p>
+        </div>
+          
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
+
+
+
+
+
+
+    <!-- footer part start -->
+
+
+    <footer>
+      <div class="footer">
+        <div class="container">
+        <div class="footer-icon row">
+          <div class="icon col">
+            <a href="deshboard.html">
+              <img src="../img/home.png">
+            </a>
+          </div>
+          <div class="icon col">
+            <a href=""><img src="../img/shopping-cart.png"></a>
+          </div>
+          <div class="icon col">
+            <button onclick="back()"><img src="../img/return.png"></button>
+          </div>
+        </div>
+        
+      </div>
+      </div>
+    </footer>
+
+    <!-- footer part end -->
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="" src="../js/main.js"></script>
+    <script type="">
+        
+            function income(){
+
+              document.getElementById('income').style.display="block";
+              document.getElementById('shop').style.display="none";
+            }
+
+
+    </script>
+    <script type="">
+                  function shop(){
+              document.getElementById('shop').style.display="block";
+              document.getElementById('income').style.display="none";
+              
+            }
+    </script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
