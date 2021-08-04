@@ -235,6 +235,9 @@ input[type="checkbox"]{
 #show:checked ~ .popup{
     display: block;
 }
+#show2:checked ~ .popup{
+    display: block;
+}
 
 .popup {
     position: absolute;
