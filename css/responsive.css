@@ -1,20 +1,115 @@
-/* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-
-@media (min-width: 481px) and (max-width: 767px) {
-  
-  /* CSS */
-}
-
 
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px) 
+{
   
   /* CSS */
- } 
+
+.bg-img{
+    display: block !important;
+    width: 100%;
+    min-height: 100%;
+        position: absolute;
+}
+.sign-page{
+    width: 90% !important;
+    position: absolute;
+    left: 5% !important;
+    top: 25px !important;
+
+}
+
+.logo-img img{
+    width: 70% !important;
+    min-height: 100%;
+}
+
+/*index html css section end*/
+
+/*Header Footer Css Start*/
+
+
+.popup {
+    position: absolute;
+    width: 80% !important;
+    height: 200px;
+    background: #495057;
+    text-align: center;
+    left: 40px !important;
+    top: 250px;
+    display: none;
+
+}
+.popup3{
+    width: 240% !important;
+    right: 30% !important;
+    top: 145px !important;
+}
+
+
+
+/*Header Footer Css End*/
+
+/*product-page html css section start*/
+
+
+
+.product-display .icon{
+
+    margin: auto 10px !important;
+}
+
+/*product-page html css section end*/
+
+
+
+
+/*register page css start*/
+
+.choose{
+    position: absolute;
+    width: 60px;
+    right: 105px !important;
+    top: 120px;
+}
+
+/*register page css end*/
+
+
+
+/*Update profile page css start*/
+
+.update-pic .choose{
+    position: absolute;
+    width: 60px;
+    right: 105px !important;
+    top: 120px;
+}
+/*Update profile page css end*/
+
+/*own fund transfer page css start*/
+
+
+
+.fund .calculator{
+    border: none;
+    background-color: #feff00;
+    padding: 5px 40px;
+    margin: 15px 85px !important;
+    border-radius: 5px;
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    color: #5e5e5e;
+    font-weight: 800;
+    cursor: pointer;
+
+}
+
+/*deshboard page css end*/
+
+
+}
