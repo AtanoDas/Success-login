@@ -23,39 +23,22 @@
      <div class="header">
       <div class="header-part">
         <div class="blog-1">
-          <a href=""><img src="../img/notification.png"></a>
-          <input type="checkbox" id="show2">
-          <label for="show2">
-            
-            <img src="../img/open-box.png">
-          </label>
-            <div class="popup2">
-              <div class="warning">
-                <h1>Set A add</h1>
-              </div>
-              <div class="option2">
-                <a href=""><button class="add btn-danger">ADD</button></a>
-
-              </div>
-            </div>
+          <a href="notifications.html"><img src="../img/notification.png"></a>
+          <a href="add-view.html"><img src="../img/open-box.png"></a>
         </div>
         <p class="notification-count">2</p>
         <p class="add-count">2</p>
 
         <div class="blog-2"><h2>Success BD</h2></div>
-        <div class="blog-3">
-          <input type="checkbox" id="show">
-          <label for="show">
-            
-            <img src="../img/close.png">
-          </label>
+        <div class="blog-3">  
+            <a id="exit-popup"><img src="../img/close.png" onclick="exit()"></a>
             <div class="popup">
               <div class="warning">
                 <h1>Are you sure you want to logout?</h1>
               </div>
               <div class="option">
                 <a href="../index.html"><button class="yes btn-danger">Yes</button></a>
-                <label for="show" class="no btn-warning">No</label>
+                <label for="show" class="no btn-warning" id="no-popup">No</label>
 
               </div>
             </div>
@@ -96,20 +79,16 @@
             <a href="profile.html"><img src="../img/deshboard/icons8-head-profile-96.png"></a>
             <h4>Profile</h4>
           </div>
-        <div class="col register">
-          <input type="checkbox" id="show3">
-          <label for="show3">
-            
-            <img src="../img/deshboard/icons8-helping-hand-96.png">
-          </label>
+        <div class="col register" id="reg-btn">
+               <img src="../img/deshboard/icons8-helping-hand-96.png">
             <div class="popup3" class="label">
               <div class="warning">
                 <h1>Choose Joining User Type</h1>
               </div>
               <div class="option3">
-                <a href="register.html"><button class="new btn-danger">New</button></a>
-                <a href="register.html"><button class="existing btn-danger">Existing</button></a>
-                <a href="register.html"><button class="re-new btn-danger">Renew</button></a>
+                <a href="register.html"><button class="new btn-danger" id="remove-popup">New</button></a>
+                <a href="register.html"><button class="existing btn-danger" id="remove-popup">Existing</button></a>
+                <a href="register.html"><button class="re-new btn-danger" id="remove-popup">Renew</button></a>
 
               </div>
             </div>
@@ -260,6 +239,26 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script type="" src="../js/main.js"></script>
+
+<!-- Register Page Popup -->
+      <script type="">
+        document.getElementById('reg-btn').addEventListener('click', function(){
+          document.querySelector('.popup3').style.display = 'block';
+      });
+
+      document.getElementById('remove-popup').addEventListener('click', function(){
+          document.querySelector('.popup3').style.display = 'none';
+      });
+      </script>
+    
+
+
+
+    
+
+
+    </script>
+
   </body>
 </html>
 

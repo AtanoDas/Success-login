@@ -19,7 +19,6 @@ body{
 .bg-img img{
     width: 100%;
     min-height: 100%;
-    z-index: 99999;
     transform: translateY(0px);
     animation: bgImg 4s ease-out;
 }
@@ -202,8 +201,8 @@ text-decoration: none !important;
 
 }
 .header img{
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
 }
 
 .header-part{
@@ -211,28 +210,26 @@ text-decoration: none !important;
     padding: 5px 10px;
 }
 .blog-1{
-    flex: 1;
+    flex: 2;
+}
+.blog-1 a{
+    margin: 0 10px;
 }
 .blog-2{
-    flex: 2;
+    flex: 3;
     text-align: center;
 }
 .blog-3{
     flex: 1;
     text-align: end;
 }
-input[type="checkbox"]{
-    display: none;
-}
-#show:checked ~ .popup{
+
+/*#show:checked ~ .popup{
     display: block;
-}
-#show2:checked ~ .popup2{
+}*/
+/*#show3:checked ~ .popup3{
     display: block;
-}
-#show3:checked ~ .popup3{
-    display: block;
-}
+}*/
 
 .popup {
     position: absolute;
@@ -267,40 +264,8 @@ margin-top: 60px;
     font-family: "Myriad pro", sans-serif;
 
 }
-.popup2 {
-    position: absolute;
-    width: 40%;
-    height: 200px;
-    background: #495057;
-    text-align: center;
-    left: 30%;
-    top: 250px;
-    display: none;
-
-}
-.popup2 h1{
-    font-size: 20px;
-    color: yellow;
-    padding: 10px 0px;
-}
-.popup2 .option2{
-
-margin-top: 60px;
-}
-.option2 .add{
-
-    padding: 10px 10px;
-    border: none;
-    font-size: 20px;
-    font-weight: 700;
-    font-family: "Myriad pro", sans-serif;
-
-}
 
 /*popup3 register icon popup*/
-.register h4{
-    margin-top: -8px !important;
-}
 .popup3 {
     position: absolute;
     width: 100%;
@@ -358,14 +323,14 @@ margin-top: 60px;
 }
 .header-part .notification-count{
     position: absolute;
-    left: 35px;
+    left: 45px;
     top: 25px;
 
 }
 .header-part .add-count{
     position: absolute;
-    left: 85px;
-    top: 10px;
+    left: 110px;
+    top: 5px;
 }
 
 
@@ -702,8 +667,12 @@ margin-top: 60px;
 }
 .choose .select-pic{
     width: 30px;
+    cursor: pointer;
 
 } 
+.choose input[type="file"]{
+    display: none;
+}
 .choose p{
     font-family: "Comic Sans MS";
     font-size: 8px;
@@ -1888,3 +1857,87 @@ padding: 40px 10px 0px 60px;
 
 
 /*accont-status-balance page css end*/
+
+
+/*Notifications page css start here*/
+.notification-page{
+    padding-top: 70px;
+}
+.notification{
+
+    padding: 20px 20px;
+    border: 0.5px solid #777777;
+    border-radius: 5px;
+
+
+}
+.notification-page hr{
+    margin: 5px 0px !important;
+    background-color: #ffffff;
+}
+.notification p{
+    color: #ffffff;
+    font-family: "Comic Sans MS";
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+
+}
+.notification .date{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+
+
+
+/*Notifications page css end here*/
+
+
+/*add-view page css start here*/
+
+.add-view{
+    padding-top: 70px;
+}
+.add-view .add{
+    background-color: #feff00;
+    width: 90%;
+    margin: 5px auto;
+    height: 100px;
+    padding: 8px;
+}
+.add p{
+    color: #000000;
+    font-family: "Comic Sans MS";
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+}
+.add .serial{
+    text-align: center;
+    padding-top: 25px;
+    border-right: 1px solid #000000;
+}
+.add .logo{
+
+}
+.add .add-desc{
+    text-align: center;
+    padding: 10px 20px;
+}
+.add img{
+
+}
+.add h4{
+    margin-top: -10px;
+    color: #000000;
+    font-family: "Comic Sans MS";
+    font-weight: 600;
+}
+
+
+
+
+/*add-view page css end here*/

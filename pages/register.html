@@ -28,8 +28,12 @@
       <div class="register-profile">
         <img class="pic" src="../img/profile.png">
         <div class="choose">
-          <img class="select-pic" src="../img/select-pic.png">
-        <p>choose image</p>
+            <input type="file" id="img" name="img" accept="image/*">
+          <label for="img">
+            <a><img class="select-pic" src="../img/select-pic.png"></a>
+          <p>choose image</p>
+          </label>
+        
         </div>
       </div>
       
@@ -37,7 +41,7 @@
 
     <section class="profile-form">
       <div class="container">
-        <form class="p-form">
+        <form class="p-form" action="">
         <input type="name" name="" placeholder="Name">
         <input type="email" name="" placeholder="Email">
         <input type="name" name="" placeholder="Full Name">

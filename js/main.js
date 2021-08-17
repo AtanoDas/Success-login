@@ -62,3 +62,17 @@ function toggle2(){
   function back(){
     window.history.back();
   }
+
+
+
+
+/*Exit popup*/
+ function exit(){
+  document.getElementById('exit-popup').addEventListener('click', function(){
+          document.querySelector('.popup').style.display = 'block';
+      });
+
+      document.getElementById('no-popup').addEventListener('click', function(){
+          document.querySelector('.popup').style.display = 'none';
+      });
+ }

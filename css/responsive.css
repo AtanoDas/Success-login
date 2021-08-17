@@ -110,6 +110,26 @@
 }
 
 /*deshboard page css end*/
+/*add-view responsive css*/
+.add h4{
+    font-weight: 500 !important;
+}
+.add p{
+    font-size: 12px !important;
+    letter-spacing: 0.2px !important;
+    font-weight: 600 !important;
+}
+.add .add-desc{
+    padding: 8px 0px 0px 20px !important;
+}
+.add img{
+
+}
+.add .logo{
+    margin: 0px -10px !important;
+    text-align: left !important;
+}
+
 
 
 }
